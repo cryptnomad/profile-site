@@ -10,7 +10,9 @@
 <small style="float:left; color: #888">June 9 2022</small>
 <small style="float:right; color: #888"><a href="../../index.html">Home</a></small>
 <br><br><br>
-
+<div class="post">
+<p style="font-size: 0.8em; color: #888"><em>Shoutout to all of the Flutter maintainers and contributors</em></p>
+<img  src="https://storage.googleapis.com/cms-storage-bucket/847ae81f5430402216fd.svg">
 <p>This past May, Flutter 3 was quietly released. It is now possible to write apps for iOS, Android, macOS, Linux, Windows, and the Web… <b>with a single codebase.</b></p>
 <p>While many JavaScript frameworks such as React and Angular have had success going a mile deep and a foot wide, it appears Flutter has begun by going a mile wide and is on its journey to go miles deep.</p>
 <p>I have dipped my toes into many disciplines of software engineering: I've helped build real-time embedded systems, distributed systems, server-less architectures, smart contracts, and web/mobile applications. Using Flutter for the past 18 months has been one of the most seamless and fun developing experiences I have had — and I was a card-carrying front-end development hater.</p>
@@ -26,7 +28,6 @@
 <p>In Flutter, finding the screen size is as simple as:</p>
 <code>
     <pre  class="codestyle">
-
 MediaQuery.of(context).size;
     </pre>
 </code>
@@ -36,13 +37,12 @@ MediaQuery.of(context).size;
 <p>Anyone who has tried coding knows that often, more time is spent setting up environments and troubleshooting downloads than actually building. Flutter makes setup extremely easy.</p>
 <p><a href="https://docs.flutter.dev/get-started/install">The getting started guide</a> is straightforward and leaves you with a basic working application.</p>
 <p>There is also myriad sample applications written by the community, with real functionality, to act as starting points. My favorite sample is <a href="https://gallery.flutter.dev/#/">Flutter Gallery</a>. It contains a library of sample elements and themes, and even a few sample app UIs:</p>
-
+<img src="../../images/flutter/flutter-0.webp">
 <p>You can view it <a href="https://gallery.flutter.dev/#/">on the web</a>, or clone <a href="https://github.com/flutter/gallery">the repository</a> and run it on an iOS/Android simulator to see how the code can adapt to different screens and themes. I recommend shrinking your window horizontally to see how the app automatically responds.</p>
-
 <p>One of the <a href="https://gallery.flutter.dev/#/">Flutter Gallery</a> a Sample applications is Reply, an email inbox. This is the app on a web browser:</p>
-
+<img src="../../images/flutter/flutter-1.webp">
 <p>This is the same app, running the same code, now on an iPhone (in light mode):</p>
-
+<p style="text-align: center;"><img style="width: 40%;" src="../../images/flutter/flutter-2.webp"></p>
 <p>All developers have to do is check the screen size, and change the layout accordingly in a simple if-else.</p>
 <p>It also merits mention that the VSCode plugins for dart/Flutter are far better than my experience with other languages. They can even automatically place brackets and semicolons (hey C++ devs…).</p>
 <h3>Beautiful out-of-the-box ui Widgets</h3>
@@ -61,13 +61,12 @@ MediaQuery.of(context).size;
 </ul>
 <h3>Cloud Integration</h3>
 <p>As the ecosystem grows, so does the support for common cloud providers. On Google, Firebase allows quick access to authentication, a noSQL storage solution, analytics, functions, push notifications, ads, and more. Starting with Flutter 3.0 Firebase is fully supported in Flutter. The <a href="https://firebase.google.com/">Firebase Console</a> has great tools for app management, testing, deployment, hosting, and analytics (if you choose to add spyware to your app).</p>
-
+<img src="../../images/flutter/flutter-3.webp">
 <p>Similarly, <a href="https://docs.amplify.aws/start/q/integration/flutter/?sc_icampaign=flutter-start&sc_ichannel=docs-home">AWS Amplify</a> gives builders a modular solution for adding powerful services like Cognito User pools, Lambda functions, Appsync, Cloudformation, and S3 Storage to Flutter apps. They even have <a href="https://ui.docs.amplify.aws/flutter/components/authenticator?platform=flutter#full-ui-customization">prebuilt ui components</a> for authentication:</p>
-
+<p style="text-align: center;"><img style="width: 40%;" src="../../images/flutter/flutter-4.webp"></p>
 <p>For reference, here is all of the code required for the above login screen:</p>
 <code>
 <pre class="codestyle">
-
 Authenticator(
     initialStep: AuthenticatorStep.signIn,
         child: MaterialApp(
@@ -84,7 +83,8 @@ Authenticator(
 <p>(<a href="https://ui.docs.amplify.aws/flutter/components/authenticator?platform=flutter#full-ui-customization">source</a>)</p>
 <h3>It's Fast</h3>
 <p>Flutter is fast. It's fast to develop. It's fast to run. It's fast to ship. The hot reload feature allows you to reload the app when you make changes and maintain state. Flutter compiles into ARM, Intel, and even Javascript in the case of the web. That means that regardless of your target system, the Dart code that you write will be optimized for the processor at the time of build — similar to how Python compiles into C.</p>
-<p>The developer tools additionally allow granular inspection of the ui tree, app state, performance statistics, memory usage and more.</p>
+<p>The developer tools additionally allow granular inspection of the ui tree, app state, performance statistics, memory usage and more:</p>
+<img src="../../images/flutter/flutter-5.webp">
 <h2>Why not use Flutter?</h2>
 <h3>Functionality Risk</h3>
 <p>What if you really need functionality, and the space is not yet mature enough to have built it? The good news is that the Flutter community is growing and there are constantly new functionalities and packages. It's also easy to extend and write functionality yourself.</p>
@@ -95,5 +95,11 @@ Authenticator(
 <p>On the other side of the equation, the cost of switching for companies already invested heavily into legacy tools can be great. Just ask our very own US government, that is <a href="https://www.indeed.com/jobs?q=Cobol+Engineer&redirected=1&vjk=25b80bcc6183473d">hiring COBOL engineers</a>… There will always be demand for dated tools in the market.</p>
 <h2>Final Thoughts</h2>
 <p>The greatest upsides in tech always come from being ahead and learning things before they're mainstream. Learning Flutter right now could be one of these opportunities, and for the reasons above I expect many of the next generation of startups and applications to go all-in on it.</p>
+<br>
 </h2>
+</div>
+<hr>
+<small style="float:left; color: #888"><a href="./flutter.html">Back to Top</a></small>
+<small style="float:right; color: #888"><a href="../../index.html">Home</a></small>
+<br><br><br>
 </html>
